@@ -74,7 +74,7 @@ class GuestBookForm extends Component {
 
                         <div className="formGroup">
                             <label htmlFor="phone">Phone Number:</label>
-                            <input type="tel" name="phone" id="phone" onChange={this.handleChanges} value={this.state.guestPhone}/>
+                            <input type="tel" name="phone" id="phone" onChange={this.handleChanges} value={this.state.guestPhone} />
                         </div>
 
                         <div className="formGroup">

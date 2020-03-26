@@ -16,6 +16,7 @@ class GuestBookListRsvp extends Component {
                             <div key={index}>
                                 <p>Name: {guest.guestName}</p>
                                 <p>Phone: {guest.guestPhone}</p>
+                                <br/>
                             </div>
                         )
                     }

@@ -45,43 +45,64 @@
 .container{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  border: 3px solid black;
+  border: 3px solid goldenrod;
   margin: 1%;
+  border-radius: 10px;
+  color: goldenrod;
  
 }
 
 #header {
   grid-column: 1/4;
   grid-row: 1;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid goldenrod;
   padding-bottom: 1%;
+  border-radius: 10px;
 }
 
 #footer {
   grid-column: 1/4;
   grid-row: 3;
-  border-top: 3px solid black;
+  border-top: 3px solid goldenrod;
   padding-top: 1%;
+  border-radius: 10px;
 }
 
 #form{
   grid-column: 1;
   grid-row: 2;
-  border: 2px solid black;
+  border: 2px solid goldenrod;
   margin: 1%;
   padding: 1%;
+  border-radius: 10px;
 }
 
 #rsvp-list{
   grid-column: 2;
   grid-row: 2;
-  border: 2px solid black;
+  border: 2px solid goldenrod;
   margin: 1%;
+  border-radius: 10px;
 }
 
 #list {
   grid-column: 3;
   grid-row: 2;
-  border: 2px solid black;
+  border: 2px solid goldenrod;
   margin: 1%;
+  border-radius: 10px;
+}
+
+html{
+  background-color: black;
+}
+fieldset{
+  border-radius: 10px;
+}
+input{
+  border-radius: 10px;
+}
+
+button{
+  border-radius: 10px;
 }

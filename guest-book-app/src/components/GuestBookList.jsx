@@ -9,7 +9,17 @@ class GuestBookList extends Component {
     render() { 
         return ( 
             <Fragment>
-                
+                <h2>Guest Book List</h2>
+                {this.props.guestList.map(
+                    (guest,index) => {
+                        return (
+                            <div key={index}>
+                                <p>Name: {guest.guestName}</p>
+                                <p>Phone: {guest.guestPhone}</p>
+                            </div>
+                        )
+                    }
+                )}
             </Fragment>
          );
     }

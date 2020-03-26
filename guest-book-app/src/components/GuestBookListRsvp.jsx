@@ -9,7 +9,17 @@ class GuestBookListRsvp extends Component {
     render() { 
         return ( 
             <Fragment>
-                
+                <h2>Guest Book Rsvp List</h2>
+                {this.props.guestListRsvp.map(
+                    (guest,index) => {
+                        return (
+                            <div key={index}>
+                                <p>Name: {guest.guestName}</p>
+                                <p>Phone: {guest.guestPhone}</p>
+                            </div>
+                        )
+                    }
+                )}
             </Fragment>
          );
     }
